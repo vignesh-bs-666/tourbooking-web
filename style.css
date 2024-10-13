@@ -1,0 +1,145 @@
+.container{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+#content1{
+    position:absolute;
+    top: 8px;
+    left: 16px;
+    display: inline-block;
+}
+
+#content2{
+    margin-top: 25px;
+    position: absolute;
+    top:16px;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#content3{
+    color:white;
+    font-size:xx-large;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 6000;
+    font-style: normal;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.box{
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+    margin-left: 0.75%;
+}
+img{
+    padding-right: 3px;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color:white;
+}
+
+img{
+    width: 100%;
+}
+
+#left{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+#centre{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+
+.class{
+    float:right;
+
+}
+
+#black{
+    padding: 75px;
+    background-color: #3C3D37;
+    color: white;
+}
+
+.last{
+    display: inline-block;
+    width: 19%;
+    height: 100%;
+    margin-left: 0.75%;
+}
+
+footer{
+    text-align: center;
+}
+
+#social>.sl{
+    width: 75px;
+    display: inline-block;
+}
+
+a,p,h3,h4{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.back{
+background-color: #FFBF9B;
+border-radius: 5%;
+display: grid;
+align-items: center; 
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 5px;
+}
+
+.text{
+    background-color: #FFE6A5;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.text a{
+    background-color: red;
+    border-radius: 5%;
+}
+
+.image{
+    padding-left: 25%;
+    padding-bottom: 20%;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+
+.back1{
+    background-color: #FFBF9B;
+    border-radius: 5%;
+    height: 250px;
+}
+
+.text1{
+    text-align: center;
+    background-color:#FFE6A5 ;
+    margin-top: 120px;
+    padding: 5px;
+    display: inline-block;
+    width: 24%;
+}
